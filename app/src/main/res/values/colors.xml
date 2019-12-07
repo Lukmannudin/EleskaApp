@@ -3,4 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="barchartColor">#FFB1C1</color>
+    <color name="barchartBorderColor">#FF6384</color>
+    <color name="barchartMarkerPointerColor">#000000</color>
+    <color name="grey">#D8D8D8</color>
 </resources>

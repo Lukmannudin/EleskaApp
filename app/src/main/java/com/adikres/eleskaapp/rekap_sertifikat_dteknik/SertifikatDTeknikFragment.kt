@@ -1,24 +1,33 @@
 package com.adikres.eleskaapp.rekap_sertifikat_dteknik
 
+import android.annotation.SuppressLint
+import android.content.Context
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.adikres.eleskaapp.R
 import com.adikres.eleskaapp.utilities.MyMarkerView
 import com.github.mikephil.charting.charts.BarChart
 import com.github.mikephil.charting.components.Legend
+import com.github.mikephil.charting.components.MarkerView
 import com.github.mikephil.charting.components.XAxis
 import com.github.mikephil.charting.components.YAxis
 import com.github.mikephil.charting.data.BarData
 import com.github.mikephil.charting.data.BarDataSet
 import com.github.mikephil.charting.data.BarEntry
+import com.github.mikephil.charting.data.Entry
 import com.github.mikephil.charting.formatter.IndexAxisValueFormatter
+import com.github.mikephil.charting.formatter.ValueFormatter
+import com.github.mikephil.charting.highlight.Highlight
 import com.github.mikephil.charting.interfaces.datasets.IBarDataSet
+import com.github.mikephil.charting.utils.MPPointF
 import kotlinx.android.synthetic.main.fragment_sertifikat_dteknik.view.*
+import java.text.DecimalFormat
 
 
 class SertifikatDTeknikFragment : Fragment() {
@@ -93,7 +102,7 @@ class SertifikatDTeknikFragment : Fragment() {
         leftAxis.textColor = Color.BLACK
         leftAxis.textSize = 12f
         leftAxis.axisLineColor = Color.WHITE
-        leftAxis.setDrawGridLines(false)
+        leftAxis.setDrawGridLines(true)
         leftAxis.granularity = 2f
         leftAxis.setLabelCount(8, true)
         leftAxis.setPosition(YAxis.YAxisLabelPosition.OUTSIDE_CHART)
@@ -176,4 +185,28 @@ class SertifikatDTeknikFragment : Fragment() {
         mChart.invalidate()
     }
 
+    @SuppressLint("ViewConstructor")
+    class XYMarkerView(context: Context, private val xAxisValueFormatter: ValueFormatter) :
+        MarkerView(context, R.layout.barchart_marker_pointer) {
+
+        private val tvContent: TextView = findViewById(R.id.tvContent)
+
+        private val format: DecimalFormat = DecimalFormat("###.0")
+
+        override fun refreshContent(e: Entry, highlight: Highlight?) {
+
+            tvContent.text =
+                String.format(
+                    "%s\n%s",
+                    xAxisValueFormatter.getFormattedValue(e.x),
+                    format.format(e.y.toDouble())
+                )
+
+            super.refreshContent(e, highlight)
+        }
+
+        override fun getOffset(): MPPointF {
+            return MPPointF((-(width / 2)).toFloat(), (-height).toFloat())
+        }
+    }
 }
