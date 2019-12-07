@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="vertical_margin">10dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="onboarding_margin">26dp</dimen>
+
+    <dimen name="margin_smallest">8dp</dimen>
+    <dimen name="margin_small">16dp</dimen>
+    <dimen name="margin_standard">24dp</dimen>
+    <dimen name="margin_big">32dp</dimen>
+    <dimen name="margin_biggest">40dp</dimen>
+
+    <dimen name="margin_biggest_extra">50dp</dimen>
+
+    <dimen name="funder_logo_width">250dp</dimen>
+    <dimen name="funder_logo_height">150dp</dimen>
+
+    <dimen name="font_size_heading1">96sp</dimen>
+    <dimen name="font_size_heading2">60sp</dimen>
+    <dimen name="font_size_heading3">48sp</dimen>
+    <dimen name="font_size_heading4">34sp</dimen>
+    <dimen name="font_size_heading5">24sp</dimen>
+    <dimen name="font_size_heading6">20sp</dimen>
+    <dimen name="font_size_subtitle1">16sp</dimen>
+    <dimen name="font_size_subtitle2">14sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_vertical_extra_margin">18dp</dimen>
+
+    <dimen name="massive_large_margin">50dp</dimen>
+    <dimen name="extra_massive_large_margin">60dp</dimen>
+
+    <dimen name="icon_size">18dp</dimen>
+</resources>

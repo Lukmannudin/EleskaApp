@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_agenda_uji"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/menu_sertifikat_dteknik" />
+
+        <item
+            android:id="@+id/nav_sertifikat_dteknik"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/menu_agendauji" />
+
+        <item
+            android:id="@+id/nav_sertifikat_kompetensi"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/menu_tenagateknik_kompeten" />
+        <item
+            android:id="@+id/nav_tenagateknik"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/menu_tenagateknik" />
+
+        <item
+            android:id="@+id/nav_tenagateknik_dbelum"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/menu_sertifikatkompetensi" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_ujikompetensi"
+                android:icon="@drawable/ic_launcher_foreground"
+                android:title="@string/Rekap_UjiKompetensi" />
+        </menu>
+    </item>
+
+</menu>

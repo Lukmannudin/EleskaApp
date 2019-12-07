@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Funder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LatihanDataLocal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MVVMArchitecture" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Pilkadangu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ProfileApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/andfun-kotlin-android-trivia-starter-code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/architecture-samples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/comrades-android" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/made-scholarship" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sekar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/unikomradioapp" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_agenda_uji">
+
+    <fragment
+        android:id="@+id/nav_agenda_uji"
+        android:name="com.adikres.eleskaapp.rekap_agendauji.AgendaUjiFragment"
+        android:label="@string/menu_agendauji"
+        tools:layout="@layout/fragment_agenda_uji" />
+
+    <fragment
+        android:id="@+id/nav_sertifikat_dteknik"
+        android:name="com.adikres.eleskaapp.rekap_sertifikat_dteknik.SertifikatDTeknikFragment"
+        android:label="@string/menu_sertifikat_dteknik"
+        tools:layout="@layout/fragment_sertifikat_dteknik" />
+
+    <fragment
+        android:id="@+id/nav_sertifikat_kompetensi"
+        android:name="com.adikres.eleskaapp.rekap_sertifikatkompetensi.SertifikatKompetensiFragment"
+        android:label="@string/menu_tenagateknik_kompeten"
+        tools:layout="@layout/fragment_sertifikat_kompetensi" />
+
+    <fragment
+        android:id="@+id/nav_tenagateknik"
+        android:name="com.adikres.eleskaapp.rekap_tenagateknik.TenagaTeknikFragment"
+        android:label="@string/menu_tenagateknik"
+        tools:layout="@layout/fragment_tenaga_teknik" />
+
+    <fragment
+        android:id="@+id/nav_tenagateknik_dbelum"
+        android:name="com.adikres.eleskaapp.rekap_tenagateknik_dbelum.TenagaTeknikDBelumFragment"
+        android:label="@string/menu_sertifikatkompetensi"
+        tools:layout="@layout/fragment_tenaga_teknik_dbelum" />
+    <fragment
+        android:id="@+id/nav_ujikompetensi"
+        android:name="com.adikres.eleskaapp.rekap_ujikompetensi.UjiKompetensiFragment"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_uji_kompetensi" />
+</navigation>
