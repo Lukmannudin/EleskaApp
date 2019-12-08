@@ -18,7 +18,7 @@
         <item
             android:id="@+id/nav_sertifikat_kompetensi"
             android:icon="@drawable/ic_launcher_foreground"
-            android:title="@string/menu_tenagateknik_kompeten" />
+            android:title="@string/menu_sertifikatkompetensi" />
         <item
             android:id="@+id/nav_tenagateknik"
             android:icon="@drawable/ic_launcher_foreground"
@@ -27,7 +27,7 @@
         <item
             android:id="@+id/nav_tenagateknik_dbelum"
             android:icon="@drawable/ic_launcher_foreground"
-            android:title="@string/menu_sertifikatkompetensi" />
+            android:title="@string/menu_sertifikat_dteknik" />
     </group>
 
     <item android:title="Settings">

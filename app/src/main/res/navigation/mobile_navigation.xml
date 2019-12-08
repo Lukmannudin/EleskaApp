@@ -20,7 +20,7 @@
     <fragment
         android:id="@+id/nav_sertifikat_kompetensi"
         android:name="com.adikres.eleskaapp.rekap_sertifikatkompetensi.SertifikatKompetensiFragment"
-        android:label="@string/menu_tenagateknik_kompeten"
+        android:label="@string/menu_sertifikatkompetensi"
         tools:layout="@layout/fragment_sertifikat_kompetensi" />
 
     <fragment
@@ -32,7 +32,7 @@
     <fragment
         android:id="@+id/nav_tenagateknik_dbelum"
         android:name="com.adikres.eleskaapp.rekap_tenagateknik_dbelum.TenagaTeknikDBelumFragment"
-        android:label="@string/menu_sertifikatkompetensi"
+        android:label="@string/menu_tenagateknik_kompeten"
         tools:layout="@layout/fragment_tenaga_teknik_dbelum" />
     <fragment
         android:id="@+id/nav_ujikompetensi"

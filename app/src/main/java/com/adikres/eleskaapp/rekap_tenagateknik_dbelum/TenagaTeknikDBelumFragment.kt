@@ -51,63 +51,63 @@ class TenagaTeknikDBelumFragment : Fragment() {
         val barEntries3: ArrayList<BarEntry> = ArrayList()
 
         val valOne = floatArrayOf(
-            547f,
-            1021f,
-            1472f,
-            1600f,
-            1707f,
-            1120f,
-            38f,
-            322f,
-            1010f,
-            1484f,
-            2455f,
-            1117f
+            32f,
+            268f,
+            1028f,
+            1116f,
+            2101f,
+            1035f,
+            495f,
+            759f,
+            1355f,
+            1347f,
+            585f,
+            1000f
         )
 
         val valTwo = floatArrayOf(
-            309f,
-            413f,
-            225f,
-            379f,
-            464f,
-            239f,
             21f,
-            118f,
-            213f,
-            240f,
-            724f,
-            469f
+            102f,
+            199f,
+            220f,
+            878f,
+            324f,
+            241f,
+            357f,
+            201f,
+            325f,
+            201f,
+            192f
         )
 
         val valThree = floatArrayOf(
-            2972f,
-            2214f,
-            2341f,
-            3155f,
-            3174f,
-            1923f,
-            239f,
-            905f,
-            5652f,
-            3995f,
-            5873f,
-            4067f
+            181f,
+            738f,
+            3478f,
+            2401f,
+            3909f,
+            1889f,
+            1763f,
+            1510f,
+            1715f,
+            2171f,
+            948f,
+            1487f
         )
 
         val valFour = floatArrayOf(
-            420f,
-            528f,
-            438f,
-            353f,
-            264f,
-            246f,
             0f,
             49f,
-            1741f,
-            926f,
-            1004f,
-            719f
+            1637f,
+            826f,
+            1065f,
+            566f,
+            407f,
+            497f,
+            298f,
+            314f,
+            12f,
+            215f
         )
 
         for (i in valOne.indices) {
