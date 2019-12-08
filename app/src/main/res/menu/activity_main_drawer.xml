@@ -7,36 +7,27 @@
 
         <item
             android:id="@+id/nav_agenda_uji"
-            android:icon="@drawable/ic_launcher_foreground"
             android:title="@string/menu_agendauji" />
 
         <item
             android:id="@+id/nav_sertifikat_dteknik"
-            android:icon="@drawable/ic_launcher_foreground"
             android:title="@string/menu_sertifikat_dteknik" />
 
         <item
             android:id="@+id/nav_sertifikat_kompetensi"
-            android:icon="@drawable/ic_launcher_foreground"
             android:title="@string/menu_sertifikatkompetensi" />
         <item
             android:id="@+id/nav_tenagateknik"
-            android:icon="@drawable/ic_launcher_foreground"
             android:title="@string/menu_tenagateknik" />
 
         <item
             android:id="@+id/nav_tenagateknik_dbelum"
-            android:icon="@drawable/ic_launcher_foreground"
             android:title="@string/menu_sertifikat_dteknik" />
+        <item
+            android:id="@+id/nav_ujikompetensi"
+            android:title="@string/Rekap_UjiKompetensi" />
+
     </group>
 
-    <item android:title="Settings">
-        <menu>
-            <item
-                android:id="@+id/nav_ujikompetensi"
-                android:icon="@drawable/ic_launcher_foreground"
-                android:title="@string/Rekap_UjiKompetensi" />
-        </menu>
-    </item>
 
 </menu>

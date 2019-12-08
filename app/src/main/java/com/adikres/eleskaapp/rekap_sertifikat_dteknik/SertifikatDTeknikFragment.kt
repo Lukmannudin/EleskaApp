@@ -33,6 +33,7 @@ import java.text.DecimalFormat
 class SertifikatDTeknikFragment : Fragment() {
 
     private lateinit var mChart: BarChart
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
